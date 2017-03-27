@@ -95,7 +95,7 @@ class CoBPlanningScraper
         end
 
       rescue BadData
-        $stderr.puts $!
+        $stderr.puts "Error: #{$!}"
       end
     end
   end
